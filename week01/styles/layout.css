@@ -1,0 +1,68 @@
+*{
+height: 100%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1.3fr;
+}
+
+/* HEADER */
+header{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.headerContent{
+    background-color: black;
+    color: aliceblue;
+}
+
+.navigation{
+    background-color: rgb(88, 88, 88);
+}
+
+.navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navigation nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+/* MAIN*/
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+        
+}
+
+.mainContent{
+    background-color: rgb(159, 159, 159);
+}
+
+.asidecontent{
+    background-color: white;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    justify-items: center;
+    
+}
+
+footer h1{
+    color: aliceblue;
+    
