@@ -53,7 +53,7 @@ body{
     display: grid;
     grid-template-rows: 0.5fr 2fr 0.5fr;
     gap: 20px;
-    width: 80%;
+    max-width: 80%;
     justify-self: center;
 }
 
