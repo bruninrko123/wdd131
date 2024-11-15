@@ -1,24 +1,54 @@
 
-const input = querySelector("favchap");
 
-const button = querySelector("button");
+const input = document.getElementById("favchap");
 
-const list = querySelector("list");
+const button = document.querySelector("button");
 
-
-const li = document.createElement("li");
-
-const deleteButton = document.createElement("button");
+const list = document.querySelector("#list");
 
 
-//puttint the input into the li element
-li.textContent = input.value;
+button.addEventListener("click", () => {
+    
+    
+    if (input.value.trim() !== "") {
+        
+    
+        const li = document.createElement("li");
+        
+        const deleteButton = document.createElement("button");
+        
+        li.textContent = input.value;
+
+        
+        
+        
+
+        deleteButton.textContent = "❌";
+
+       
+        li.appendChild(deleteButton);
+
+        list.appendChild(li);
+
+        deleteButton.addEventListener("click", function() {
+            list.removeChild(li);
+            input.focus();
+         });
+
+         input.value = "";
+         
+    }
+    
+       
+        input.focus();
+   
 
 
-deleteButton.textContent = "❌";
+    
+   
+});
 
 
-li.appendChild(deleteButton);
 
-list.appendChild(li);
+
 
