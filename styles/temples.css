@@ -19,7 +19,7 @@ h1{
     align-self: center;
 
     font-family: "Sour Gummy", sans-serif;
-        font-optical-sizing: auto;
+        
         font-weight: 700;
         font-style: normal;
         font-variation-settings:
@@ -28,7 +28,7 @@ h1{
 
 h2{
     font-family: "Sour Gummy", sans-serif;
-        font-optical-sizing: auto;
+        
         font-weight: 700;
         font-style: normal;
         font-variation-settings:
@@ -78,7 +78,7 @@ h2{
 main{
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: repeat(1fr, auto);
     justify-items: center;
 }
