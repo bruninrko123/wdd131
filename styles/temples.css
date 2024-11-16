@@ -44,7 +44,7 @@ h2{
 .navigation.open a{
     font-size: 1.4rem;
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(151, 206, 255);
     display: block;
     padding: 8px;
     text-align: center;
