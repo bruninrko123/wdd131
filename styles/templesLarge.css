@@ -20,7 +20,7 @@ h1{
 
     
         font-family: "Sour Gummy", sans-serif;
-        font-optical-sizing: auto;
+        
         font-weight: 700;
         font-style: normal;
         font-variation-settings:
@@ -32,7 +32,7 @@ h2{
     justify-self: center;
 
     font-family: "Sour Gummy", sans-serif;
-    font-optical-sizing: auto;
+    
     font-weight: 700;
     font-style: normal;
     font-variation-settings:
@@ -131,12 +131,12 @@ body{
 
 .figures figcaption{
 
-    .fira-sans-condensed-regular {
+    
         font-family: "Fira Sans Condensed", serif;
         font-weight: 400;
         font-style: normal;
-      }
-}
+    }
+
 
 body{
     background-color:rgb(255, 255, 200) ;
