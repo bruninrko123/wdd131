@@ -1,0 +1,144 @@
+@media screen and (min-width: 640px) { 
+
+
+body{
+    display: grid;
+    grid-template-rows:  0.4fr 3fr 0.3fr;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    background-color: rgb(145, 145, 145);
+   grid-gap: 1rem;
+}
+
+
+h1{
+    color: aliceblue;
+
+    
+        font-family: "Sour Gummy", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      
+}
+
+h2{
+    justify-self: center;
+
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+.navigation ul{
+
+    display: flex;
+    
+    
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navigation ul li{
+    flex: 1 1 100%;
+}
+
+
+
+.navigation a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navigation a:hover{
+    border: 1px solid white;
+    text-decoration: underline double;
+    text-decoration-color: rgb(62, 255, 107);
+}
+
+
+
+
+
+
+
+/*   MAIN */
+
+
+
+main{
+    max-width: 80%;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: auto ;
+}  
+
+.figures{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+
+}
+
+button{
+    
+    display: none;
+}
+
+}
+
+
+/* FOOTER */
+
+/* OUTSIDE OF THE BRACES*/
+footer{
+    width: 100%;;
+    justify-items: center;
+    background-color: rgb(145, 145, 145);
+}
+
+footer p{
+   
+        font-family: "Fira Sans Condensed", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+      
+}
+
+
+body{
+    display: grid;
+    grid-template-rows:  0.4fr 3fr 0.3fr;
+    width: 95%;
+    justify-self: center;
+}
+
+.figures figcaption{
+
+    .fira-sans-condensed-regular {
+        font-family: "Fira Sans Condensed", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+body{
+    background-color:rgb(255, 255, 200) ;
+}
+

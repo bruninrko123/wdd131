@@ -15,4 +15,3 @@ const modification = document.lastModified;
 
 lastModified.innerHTML = `Last Modification: ${modification}`;
 
-
