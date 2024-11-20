@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place | Bruno dos Santos Alves</title>
+    <meta name="author" content="Bruno dos Santo Alves">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | Bruno dos Santos Alves | A page about Ghana">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <script src = "scripts/getdates.js" defer></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Merriweather&family=Roboto&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Ghana</h1>
+    </header>
+
+    <main>
+        <div class="elmina">
+            <picture>
+                <source srcset="images/ElminaCastle-large.webp" media="(min-width: 1500px)">
+                <source srcset="images/ElminaCastle-medium.webp" media="(min-width: 640px)">
+                <img src="images/ElminaCastle-small.webp" alt="Elmiina Castle" width="450" height="272.2">
+
+            </picture>
+
+            <div class="data">
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 238.533 km²</p>
+                <p><strong>Population:</strong> 34,12 million</p>
+                <p><strong>Capital:</strong> Accra</p>
+                <p><strong>Main Languages:</strong>     English, twi, fante, Ga, Ewe</p>
+                <p><strong>Currency:</strong>Ghana Cedi (GH₵)</p>
+                <p><strong>TimeZone:</strong> UTC + 0</p>
+                <p><strong>Calling Code:</strong> +233</p>
+                <p><strong>Internet TLD:</strong> .gh</p>
+    
+            </div>
+    
+            <div class="weather">
+                <p id="weatherTitle"></p>
+                <h2>Weather</h2>
+                <p><strong>Temperature: </strong><span id="temperature">9 °C</span></p>
+                <p><strong>Conditions: </strong> Cloudy</p>
+                <p><strong>Wind: </strong><span id="windSpeed">8 km/h</span></p>
+                <p><strong>Wind Chill: </strong><span class="windChill" id="windChill"></span></p>
+    
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p><span class = "copyright" id = "currentYear"></span></p>
+
+        <p>
+            <span class = "lastModified" id="lastModified"></span>
+        </p>
+
+    </footer>
+    
+</body>
+</html>
