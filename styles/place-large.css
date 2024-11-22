@@ -78,11 +78,13 @@ p{
 
 
 
+#weatherIcon::after{
 
-#wheaterTitle ::after{
-    content: '🌤️';
-    
+  content: "🌤️";
+}
 
+#IconSVG{
+    display: none;
 }
 
 img{
