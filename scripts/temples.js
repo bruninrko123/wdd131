@@ -18,9 +18,13 @@ const hambButton = document.querySelector("#menu");
 
 const navigation = document.querySelector(".navigation");
 
+
+
 hambButton.addEventListener("click", () => {
     hambButton.classList.toggle("open");
     
     navigation.classList.toggle("open");
+
+    
     
 });
