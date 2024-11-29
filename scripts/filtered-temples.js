@@ -97,7 +97,7 @@ function cardTemplate(temple) {
     <p>Location: ${temple.location}</p>
     <p>Dedicated: ${temple.dedicated}</p>
     <p>Size: ${temple.area} sq ft</p>
-    <img src="${temple.imageUrl}" alt ="${temple.templeName}" loading:"lazy">
+    <img src="${temple.imageUrl}" alt ="${temple.templeName}" loading:"lazy" width="400" height="200">
     </figure>`
 }
 

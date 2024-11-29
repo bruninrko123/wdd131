@@ -1,4 +1,4 @@
-@media screen and (min-width: 640px) { 
+@media screen and (min-width: 1016px) { 
 
 
 body{
@@ -16,7 +16,7 @@ header{
 
 
 h1{
-    color: aliceblue;
+    
 
     
         font-family: "Sour Gummy", sans-serif;
@@ -150,4 +150,9 @@ figure{
 img{
     max-width: 300px;
     
+}
+
+header{
+
+    max-height:200px;
 }
