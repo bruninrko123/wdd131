@@ -1,0 +1,28 @@
+img{
+    display: block;
+    
+    padding: 5px;
+    opacity: 0;
+    animation: fade 15s;
+}
+
+
+h1{
+    text-align: center;
+}
+
+main{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+@keyframes fade {
+0%{
+    opacity: 0;
+}
+
+100%{
+    opacity: 1;
+}
+}
