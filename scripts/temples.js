@@ -25,6 +25,5 @@ hambButton.addEventListener("click", () => {
     
     navigation.classList.toggle("open");
 
-    
-    
+      
 });

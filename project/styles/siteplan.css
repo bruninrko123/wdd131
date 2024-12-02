@@ -1,0 +1,42 @@
+
+:root{
+    --headings: #000000;
+    --background: #D1D2F9;
+}
+
+
+header{
+    background-color: white;
+    text-align: center;
+
+}
+
+h1, h2, h3{
+    color: var(--headings);
+
+    font-family: "Sour Gummy", sans-serif;
+        
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+}
+
+p{
+    font-family: "Fira Sans Condensed", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+}
+main{
+    max-width:840px;
+    justify-self: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--background);
+    padding: 10px;
+}
+
+img{
+    j;
+}
