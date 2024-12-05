@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review | Bruno Alves</title>
+    <meta name="author" content="Bruno dos Santo Alves">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | Bruno dos Santos Alves | A product review form">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+
+        <form method="get" action="completed.html" class="reviewForm">
+            <div>
+            <label>
+                <legend>Product Name</legend> 
+                <select name="product" id="productName">
+                    <option value="" disabled selected>Select a product &#9662;</option>
+                </select>
+            </label>
+            </div>
+
+
+            <div class="rating">
+            <legend>OverAll Rating</legend>
+            <div class="bullets"><label>&#9734;<input   id="1"  type="radio" value="one"   name="rate" required></label></div>
+            <div class="bullets"><label>&#9734; &#9734;<input   id="2"  type="radio" value="two"   name="rate" required></label></div>
+            <div class="bullets"><label>&#9734; &#9734; &#9734;<input   id="3"  type="radio" value="three" name="rate" required></label></div>
+            <div class="bullets"><label>&#9734; &#9734; &#9734; &#9734;<input   id="4"  type="radio" value="four"  name="rate" required></label></div>
+            <div class="bullets"><label>&#9734; &#9734; &#9734; &#9734; &#9734;<input   id="5"  type="radio" value="five"  name="rate" required></label></div>
+            </div>
+            
+            <div>
+            <legend>Date of Installation</legend>
+            <label><input type="date" name="InstallationDate" id="InstallationDate" required></label>
+            </div>
+
+            <div class="checkbox">
+            <legend>Which features did you find useful in the product?<br> <span class="italic">(Check all that apply)</span></legend>
+            <label><input type="checkbox" name="Durability" value="Durability">Durability</label>
+            <label><input type="checkbox" name="Ease of use" value="Ease of use">Ease of use</label>
+            <label><input type="checkbox" name="Performance" value="Performance">Performance</label>
+            <label><input type="checkbox" name="Design" value="Design">Design</label>
+            </div>
+
+
+            <div>
+            <legend>Written Review <span class="blue">(Optional)</span></legend>
+            <textarea name="writtenReview" id="writtenReview"></textarea>
+            </div>
+
+            <div>
+            <legend>Your Name <span class="blue">(Opcional)</span></legend>
+            <label><input type="text" id="userName" name="userName"></label>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p><span class = "copyright" id = "currentYear"></span></p>
+
+        <p>
+            <span class = "lastModified" id="lastModified"></span>
+        </p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+
+/*Header */
+
+
+header{
+    background-color: rgb(117, 117, 117);
+    height: 70px;
+    text-align: center;
+    align-content: center;
+}
+
+
+main{
+background-color: rgb(163, 252, 252);
+border: 1px solid black;
+border-radius: 10px;
+}
+
+
+label{
+    display: block;
+    
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating input{
+    height: 20px;
+}
+
+legend{
+    font-weight: 700;
+    
+   
+}
+
+input, select, textarea{
+    margin-right: 6px;
+    width: 90%;
+    margin: 5px;
+    height: 45px;
+    font-size: 1.2rem;
+  
+}
+
+.checkbox input{
+    width: auto;
+
+    
+    
+}
+
+.checkbox label{
+    
+}
+
+
+
+
+div{
+    margin-top: 2rem;
+}
