@@ -90,7 +90,7 @@ input, select, textarea{
 
 footer{
 
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(74, 74, 74);
     height: 70px;
     text-align: center;
     align-content: center;
@@ -99,15 +99,40 @@ footer{
 
 
     font-family: "Fira Sans Condensed", serif;
-        font-weight: 400;
+        font-weight: 600;
         font-style: normal;
         font-size: 0.9rem;
-    
+        color: white;
+        
 }
 
 
 
 div{
     margin-top: 2rem;
+}
+
+
+
+.productName{
+    margin: 0 auto;
+}
+
+.productLegend{
+    padding-top: 10px;
+}
+
+.bullets label{
+   text-align: center;
+    
+}
+
+.checkbox input{
+
+    position: relative;
+    top: 18px;
+    height: 45px;
+   
+
 }
 
