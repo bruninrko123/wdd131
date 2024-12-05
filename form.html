@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Merriweather&family=Roboto&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -17,12 +23,12 @@
 
     <main>
 
-        <form method="get" action="completed.html" class="reviewForm">
+        <form method="get" action="review.html" class="reviewForm">
             <div>
             <label>
                 <legend>Product Name</legend> 
-                <select name="product" id="productName">
-                    <option value="" disabled selected>Select a product &#9662;</option>
+                <select name="product" id="productName" required>
+                    
                 </select>
             </label>
             </div>
@@ -30,13 +36,14 @@
 
             <div class="rating">
             <legend>OverAll Rating</legend>
+            <div class="stars">
             <div class="bullets"><label>&#9734;<input   id="1"  type="radio" value="one"   name="rate" required></label></div>
             <div class="bullets"><label>&#9734; &#9734;<input   id="2"  type="radio" value="two"   name="rate" required></label></div>
             <div class="bullets"><label>&#9734; &#9734; &#9734;<input   id="3"  type="radio" value="three" name="rate" required></label></div>
             <div class="bullets"><label>&#9734; &#9734; &#9734; &#9734;<input   id="4"  type="radio" value="four"  name="rate" required></label></div>
             <div class="bullets"><label>&#9734; &#9734; &#9734; &#9734; &#9734;<input   id="5"  type="radio" value="five"  name="rate" required></label></div>
             </div>
-            
+            </div>
             <div>
             <legend>Date of Installation</legend>
             <label><input type="date" name="InstallationDate" id="InstallationDate" required></label>
@@ -44,10 +51,10 @@
 
             <div class="checkbox">
             <legend>Which features did you find useful in the product?<br> <span class="italic">(Check all that apply)</span></legend>
+            <label><input type="checkbox" name="Design" value="Design">Design</label>
             <label><input type="checkbox" name="Durability" value="Durability">Durability</label>
             <label><input type="checkbox" name="Ease of use" value="Ease of use">Ease of use</label>
             <label><input type="checkbox" name="Performance" value="Performance">Performance</label>
-            <label><input type="checkbox" name="Design" value="Design">Design</label>
             </div>
 
 
@@ -60,6 +67,10 @@
             <legend>Your Name <span class="blue">(Opcional)</span></legend>
             <label><input type="text" id="userName" name="userName"></label>
             </div>
+
+
+            <input type="submit" value="Send review">
+
         </form>
 
     </main>
