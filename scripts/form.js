@@ -43,7 +43,7 @@ const products = [
 
     select.innerHTML = `<option value="">Please Select &#9662;</option>` + productOptions.join("");
 
-    products.map()
+    
   };
 
 
