@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Offer Form</title>
+    <meta name="author" content="Bruno dos Santo Alves">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | Bruno dos Santos Alves | This is a website that show people tickets and rides available from drivers anc ompanies in the south east of brazil">
+    <link rel="stylesheet" href="styles/offer.css">
+    <script src="scripts/ride.js" defer></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Merriweather&family=Roboto&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <form action="sent.html" target="_blank" id="offerForm">
+            <h1>New Offer</h1>
+            <label>Contact Info: <input type="text" id="contactInfo" name="contactInfo" required></label>
+
+            <label>Date of the Trip: <input type="text" id="tripDate" name="tripDate" required></label>
+
+            <label>Estimated price: <input type="text" id="estimatedPrice" name="estimatedPrice"></label>
+
+            <div class="tripType">
+                <h2>Type of Trip</h2>
+            <label><input id="transport" type="radio" value="car" name="transport" required> Car</label>
+            <label><input id="transport" type="radio" value="bus" name="transport" required> Bus</label>
+            <label><input id="transport" type="radio" value="plane" name="transport" required> Plane</label>
+
+            </div>
+
+            
+
+            <div class="submit">
+            <input type="submit" value="Send Your Offer">
+            </div>
+        </form>
+
+        
+    </main>
+
+</body>

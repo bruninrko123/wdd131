@@ -1,0 +1,51 @@
+
+label{
+    display: block;
+    padding: 10px;
+}
+
+
+
+main{
+    justify-self: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+    background-color: rgb(255, 255, 156);
+}
+
+h1,h2{
+    font-family: "Sour Gummy", sans-serif;
+        
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+input[type="submit"]{
+    
+    height: 30px;
+    border-radius: 5px;
+
+
+}
+
+input[type="submit"]:hover{
+
+    background-color: aqua;
+}
+
+.submit{
+    justify-self: center;
+    
+}
+
+.tripType{
+    margin-top: 20px;
+}

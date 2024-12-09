@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+  
+    font-family: "Sour Gummy", sans-serif;
+        
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+}
+
+
+nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+nav a{
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: hsl(120, 100%, 61%);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div{
+    background-color: blue;
+}
+
