@@ -1,0 +1,66 @@
+@media screen and (max-width: 713px) {
+
+
+    #navigation a{
+        display: none;
+    }
+    .pagesNavigation{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2rem;
+        background-color: rgb(0, 99, 99);
+    
+    }
+    
+    .pagesNavigation a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .pagesNavigation.open{
+        display: none;
+    }
+
+    #navigation.open a{
+        display: block;
+        text-decoration: none;
+        font-size: 1.3rem;
+        padding: 5px;
+        
+        color: white;
+        
+    }
+
+    #navigation.open a:hover{
+        text-decoration: underline;
+    }
+    #navigation.open{
+        justify-items: center;
+        background-color: rgb(0, 99, 99);
+        margin-top: 10px;
+        max-width: 30%;
+        justify-self: center;
+    }
+
+
+
+    #menu{
+        position: absolute;
+        top: 155px;
+        left: 20px;
+        background-color: #D1D2F9;
+    }
+    #menu::before{
+        content: "Ride Options ▾";
+    }
+
+    #menu.open::before{
+        content: "X";
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+}

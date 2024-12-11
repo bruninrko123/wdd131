@@ -1,3 +1,64 @@
+@media screen and (min-width: 714px) {
+    
+
+
+
+
+
+.navigation{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    background-color: rgb(0, 99, 99);
+}
+
+.pagesNavigation{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    background-color: rgb(0, 99, 99);
+
+}
+
+.navigation a, .pagesNavigation a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: hsl(120, 100%, 61%);
+}
+
+
+
+
+#menu{
+    display: none;
+}
+
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+.individualCards{
+    background-color: #D1D2F9;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 320px;
+    padding: 5px;
+}
+
 h1{
     text-align: center;
   
@@ -8,32 +69,3 @@ h1{
         font-variation-settings:
           "wdth" 100;
 }
-
-
-nav{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.3rem;
-}
-
-nav a{
-    text-decoration: none;
-
-}
-
-nav a:hover{
-    text-decoration: underline;
-    color: hsl(120, 100%, 61%);
-}
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-div{
-    background-color: blue;
-}
-
