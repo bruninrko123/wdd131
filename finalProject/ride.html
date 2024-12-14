@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/ride.css">
     <link rel="stylesheet" href="styles/ride-small.css">
     <script src="scripts/ride.js" defer></script>
+    
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +26,8 @@
             
             <a href="home.html" id="Home">Home</a>
             <a href="#" id="Rides">Rides</a>
-            <a href="form.html" id="Form">Form</a>
+            <a href="guideLines.html" id="guideLines">Guide lines</a>
+            
             
         </nav>
 
@@ -35,12 +37,52 @@
             <a href="#" id="carRides">Car rides</a>
             <a href="#" id="busRides">Bus tickets</a>
             <a href="#" id="planeRides">Plane Tickets</a>
+           
         </nav>
     </header>
 
     <main>
        <div class="cards" id="cards"> </div>
+
+       <h2 class="formHead">Add a ride or a ticket to the list by filling out the form</h2>
+       <div id="divForm">
+
+        <form action="sent.html" target="_blank" id="offerForm">
+            <h1>New Offer</h1>
+            <label>Contact Info: <input type="text" id="contactInfo" name="contactInfo" required></label>
+
+            <label>Date of the Trip: <input type="text" id="tripDate" name="tripDate" required></label>
+
+            <label>Estimated price: <input type="text" id="estimatedPrice" name="estimatedPrice"></label>
+
+            <label>Origin: <input type="text" id="origin" name="origin"></label>
+
+            <label>Destination: <input type="text" id="destination" name="destination"></label>
+
+            <div class="tripType">
+                <h2>Type of Trip</h2>
+            <label><input class="transport" type="radio" value="car" name="transport" required> Car</label>
+            <label><input class="transport" type="radio" value="bus" name="transport" required> Bus</label>
+            <label><input class="transport" type="radio" value="plane" name="transport" required> Plane</label>
+
+            </div>
+
+            
+
+            <div class="submit">
+            <input type="submit" value="Send Your Offer">
+            </div>
+        </form>
+       </div>
     </main>
+
+    <footer>
+        <p><span class = "copyright" id = "currentYear"></span></p>
+
+        <p>
+            <span class = "lastModified" id="lastModified"></span>
+        </p>
+    </footer>
     
 </body>
 </html>

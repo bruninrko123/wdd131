@@ -8,6 +8,8 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | Bruno dos Santos Alves | This is a website that show people tickets and rides available from drivers anc ompanies in the south east of brazil">
     <link rel="stylesheet" href="styles/ride.css">
     <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/home.js" defer></script>
+    
     
 
 
@@ -26,7 +28,8 @@
             
             <a href="home.html" id="Home">Home</a>
             <a href="ride.html" id="Rides">Rides</a>
-            <a href="form.html" id="Form">Form</a>
+            <a href="guideLines.html" id="guideLines">Guide lines</a>
+            
             
         </nav>
     </header>
@@ -34,7 +37,7 @@
     <main>
         <div class="top">
         <h2>Come travel with easy trips <br>We make your trips easier to plan and less expensive</h2>
-        <img src="images/travel.png" alt="trips image" height="250">
+        <img src="images/rsz_travel.webp" alt="trips image" height="250" loading="lazy">
 
         </div>
 
@@ -43,7 +46,7 @@
             <picture class="downImage">
                 <source srcset="images/staff_400.webp" media="(min-width: 714px)">
                 
-                <img src="images/staff_250_b.webp"  alt="staff image" width="250">
+                <img src="images/staff_250_b.webp"  alt="staff image" width="250" loading="lazy">
             </picture>
             
             <p>You can find different ways to travel in our website. It is fast and
@@ -62,5 +65,14 @@
             </p>
         </div>
     </main>
+
+
+    <footer>
+        <p><span class = "copyright" id = "currentYear"></span></p>
+
+        <p>
+            <span class = "lastModified" id="lastModified"></span>
+        </p>
+    </footer>
 
 </body>
